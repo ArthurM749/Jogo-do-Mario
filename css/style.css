@@ -28,13 +28,6 @@
   animation: pipe-animation 1s infinite linear;
 }
 
-@media (max-width: 768px) {
-  .pipe {
-    width: 50px;  
-    height: 70px;  
-  }
-}
-
   .Obsbullet {
     position: fixed;
     bottom: 200px;
