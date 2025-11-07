@@ -39,7 +39,7 @@
   
   .Obsbullet.active {
     opacity: 1;
-    animation: bullet-animation 0.8s linear;
+    animation: bullet-animation 0.2s linear;
   }
   
   .score,
