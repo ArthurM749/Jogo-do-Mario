@@ -198,7 +198,7 @@ const animateBullet = () => {
   }
 
   bullet.style.display = "block";
-  bullet.style.animation = "bullet-animation 0.8s linear";
+  bullet.style.animation = "bullet-animation 0.7s linear";
 
   bullet.addEventListener(
     "animationend",
@@ -287,4 +287,5 @@ const restartGame = function () {
 
 document.querySelector(".retry").addEventListener("click", restartGame);
 document.querySelector(".game-board").addEventListener("keydown", jump);
+
 document.querySelector(".game-board").addEventListener("touchstart", jump);
